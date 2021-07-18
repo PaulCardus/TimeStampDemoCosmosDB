@@ -1,0 +1,5 @@
+resource_group_name     = "rg-terraform-demo"
+resource_group_location = "UK South"
+app_service_plan_name   = "plan-terraform-demo"
+app_service_name        = "var not in use, created dynamically to ensure a unique value"
+failover_location       = "UK West"
